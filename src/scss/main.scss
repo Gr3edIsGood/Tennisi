@@ -1,0 +1,138 @@
+
+
+.main{
+  margin:20rem auto;
+  max-width: 1440px;
+  font-family: 'Tahoma';
+  font-style: normal;
+  font-size: 9pt;
+  font-weight: bold;
+}
+.main__wrapper{
+  max-width: 578px;
+  margin: 0 auto;
+  .main__title{
+    border: 1px solid #ffffff;
+    background-color: #941F2C;
+    font-weight: bold;
+    color:#ffffff;
+    padding: 2px 5px;
+    font-size: 9pt;
+    span{
+      cursor: pointer;
+    }
+  }
+  .main__table--data{
+    text-align: center;
+    background-color: rgb(255, 138, 76);
+    display: flex;
+    color:#ffffff;
+    sub{
+      margin-left: -2px;
+    }
+    .main__table--colm{
+      border: 1px solid #941F2C;
+      padding: 2.5px 0;
+      border-right:0.5px;
+    }
+    .num{
+      min-width: 3rem;
+      color: #941F2C;
+      font-weight: normal;
+    }
+    .date{
+      min-width: 5rem;
+    }
+    .event{
+      min-width: 15.1rem;
+    }
+    .win,.coef,.more,.less{
+      min-width: 3.2rem;
+    }
+    .handcap{
+      min-width: 3.8rem;
+    }
+    .total{
+      min-width: 4.3rem;
+    }
+    .add{
+      min-width: 3.6rem;
+      &.main__table--colm{
+        border-right:1px solid #941F2C;
+      }
+    }
+
+  }
+  .main__date{
+    padding:1px 0.5rem;
+    border-right:1px solid #941F2C;
+    border-left:1px solid #941F2C;
+    color:#941F2C;
+  }
+  .main__table--options{
+    border-bottom:1px solid #941F2C;
+    border-top:1px solid #941F2C;
+    .main__table--option{
+      text-align: center;
+      display: flex;
+      .main__table--colm{
+        border: 1px solid #941F2C;
+        padding: 0.5px 0;
+        border-right:0.5px;
+        font-weight: normal;
+        border-bottom:1px solid #941F2C;
+        border-top:none;
+        a{
+          color: #941F2C;
+          &:hover{
+            color: #FF4243;
+          }
+        }
+      }
+      .num{
+        min-width: 3rem;
+        background-color: rgb(255, 242, 197);
+      }
+      .date{
+        min-width: 5rem;
+        background-color: rgb(255, 242, 197);
+      }
+      .event{
+        min-width: 15.1rem;
+        font-weight: normal;
+        text-align: left;
+        padding:0.5px 2.5px;
+        background-color: rgb(255, 222, 207);
+      }
+      .win,.coef,.more,.less{
+        min-width: 3.2rem;
+        background-color: rgb(255, 242, 197);
+      }
+      .handcap{
+        min-width: 3.8rem;
+        font-weight: bold;
+        background-color: rgb(255, 222, 207);
+      }
+      .total{
+        min-width: 4.3rem;
+        font-weight: bold;
+        background-color: rgb(255, 222, 207);
+        color:#941F2C;
+      }
+      .add{
+        min-width: 3.6rem;
+        font-weight: bold;
+        background-color: rgb(255, 138, 76);
+        a{
+          color:#ffffff;
+          &:hover{
+            color:#ffffff;
+          }
+        }
+        &.main__table--colm{
+          border-right:1px solid #941F2C;
+        }
+      }
+    }
+  }
+}
